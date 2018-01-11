@@ -9,7 +9,6 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Ability to refresh the list of Mods in case new ones were downloaded using the CA mod launcher
 - [x] Ability to revert back to vanilla (no custom priority defined, return to using the CA mod launcher)
 - [x] Ability to select a row/Mod and see the Mod's image
-- [x] Number of Mods activated listed
 
 ## Requirements:
 
@@ -27,5 +26,8 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Conflict GUI could show more information on what it is conflicting with for each Mod
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
 - [ ] Add help button
+- [ ] Full source code check in
+- [ ] WPF-based ground up rewrite of the GUI
+- [ ] Number of Mods activated listed
   
   ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
