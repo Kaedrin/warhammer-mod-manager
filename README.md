@@ -29,5 +29,8 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Full source code check in
 - [ ] WPF-based ground up rewrite of the GUI
 - [ ] Number of Mods activated listed
+- [ ] Enable/Disable all mods
+- [ ] Move Data files and AppIds to XML files enabling the Mod Manager to support other Total War games
+- [ ] Thumbnail mode where each row is larger but shows an inline thumbnail for the Mod (probably a dozen rows at once)
   
   ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
