@@ -3,22 +3,29 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 
 ## Initial Release Features:
 
-- [ ] Ability to load, save, and delete profiles of activated Mods
-- [ ] Ability to change the priority order of Mods
-- [ ] Ability to refresh the list of Mods in case new ones were downloaded using the CA mod launcher
-- [ ] Ability to revert back to vanilla (no custom priority defined, return to using the CA mod launcher)
-- [ ] Ability to select a row/Mod and see the Mod's image
-- [ ] Number of Mods activated listed
+- [x] Ability to load, save, and delete profiles of activated Mods
+- [x] Ability to change the priority order of Mods
+- [x] Ability to show which Mods are in conflict with each other
+- [x] Ability to refresh the list of Mods in case new ones were downloaded using the CA mod launcher
+- [x] Ability to revert back to vanilla (no custom priority defined, return to using the CA mod launcher)
+- [x] Ability to select a row/Mod and see the Mod's image
+- [x] Number of Mods activated listed
 
 ## Requirements:
 
 - DotNet v4.5 Framework installed
 - Resolution at least 1400x850 or better 
+- **_You MUST disable ALL mods in the CA Mod Manager BEFORE Launch in the New Mod Manager for Warhammer 2_**
+- **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2_**
 
 ## Upcoming Features:
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
 - [ ] Parallel.Foreach to speed up the file loading
-- [ ] Limited Steam Integration (Title, Author, Required Mods)
-- [ ] Better support resolutions with resizing and adjusted placement
-
+- [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
+- [ ] Better support for smaller resolutions with resizing and adjusted placement
+- [ ] Conflict GUI could show more information on what it is conflicting with for each Mod
+- [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
+- [ ] Add help button
+  
+  ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
