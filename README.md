@@ -25,12 +25,16 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Conflict GUI could show more information on what it is conflicting with for each Mod
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
-- [ ] Add help button
+- [ ] Add help menu item
 - [ ] Full source code check in
 - [ ] WPF-based ground up rewrite of the GUI
 - [ ] Number of Mods activated listed
 - [ ] Enable/Disable all mods
 - [ ] Move Data files and AppIds to XML files enabling the Mod Manager to support other Total War games
+- [ ] Add menu options for Importing and Exporting profiles (to any other location on the machine than the usual scripts folder for sharing)
 - [ ] Thumbnail mode where each row is larger but shows an inline thumbnail for the Mod (probably a dozen rows at once)
+- [ ] Importing a profile with a mod you don't have subscribed will pop an error message detailing which mods are missing (pack file names for now, steam URLs in the future)
+- [ ] Generate a data XML file for Warhammer 1 (since I have the game installed)
+- [ ] Install Rome 2 and generate a data XML file (since I own the game)
   
   ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
