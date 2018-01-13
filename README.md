@@ -45,5 +45,6 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Move data file path to menu option - v1.1
 - [x] Move contact message to menu option - v1.1
 - [x] Dock list view to bottom of GUI to help support resize and GUI issues with WinForms GUI - v1.1
+- [x] Right clicking a row will launch a form which will show the file contents of the Mod file
   
   ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
