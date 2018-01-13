@@ -20,21 +20,30 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 ## Upcoming Features:
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
-- [ ] Parallel.Foreach to speed up the file loading
+- [x] Parallel.Foreach to speed up the file loading
 - [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Conflict GUI could show more information on what it is conflicting with for each Mod
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
-- [ ] Add help menu item
+- [x] Add help menu item
 - [ ] Full source code check in
 - [ ] WPF-based ground up rewrite of the GUI
 - [ ] Number of Mods activated listed
-- [ ] Enable/Disable all mods
-- [ ] Move Data files and AppIds to XML files enabling the Mod Manager to support other Total War games
-- [ ] Add menu options for Importing and Exporting profiles (to any other location on the machine than the usual scripts folder for sharing)
+- [x] Enable/Disable all mods
+- [x] Move Data files and AppIds to XML files enabling the Mod Manager to support other Total War games
+- [x] Add menu options for Importing and Exporting profiles (to any other location on the machine than the usual scripts folder for sharing)
 - [ ] Thumbnail mode where each row is larger but shows an inline thumbnail for the Mod (probably a dozen rows at once)
-- [ ] Importing a profile with a mod you don't have subscribed will pop an error message detailing which mods are missing (pack file names for now, steam URLs in the future)
-- [ ] Generate a data XML file for Warhammer 1 (since I have the game installed)
+- [x] Importing a profile with a mod you don't have subscribed will pop an error message detailing which mods are missing (pack file names for now, steam URLs in the future)
+- [x] Generate a data XML file for Warhammer 1 (since I have the game installed)
 - [ ] Install Rome 2 and generate a data XML file (since I own the game)
+- [ ] Ctrl/shift (keys TBD) select to allow moving multiple mods at a time
+- [ ] Ability to categorize rows using the steam categories
+- [x] Fix for profiles not loading correctly
+- [x] Profiles now only save the Mods that are enabled for speed/efficiency 
+- [x] Add preference to start with last profile used - v1.1
+- [ ] Add preference to remember last UI setting - v1.1
+- [x] Move data file path to menu option - v1.1
+- [x] Move contact message to menu option - v1.1
+- [x] Dock list view to bottom of GUI to help support resize and GUI issues with WinForms GUI - v1.1
   
   ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
