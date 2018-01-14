@@ -1,16 +1,16 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-## New Version 1.1 Features:
+## New Version 1.1a Features:
 - [x] Improved file loading using parallel processing
-- [x] Move Data files and AppIds to XML files enabling the Mod Manager to support other Total War games (will need to rework for more than Warhammer 1 and 2)
+- [x] Moved Data files and AppIds to XML files preparing the Mod Manager to support Warhammer 1 (needs more work to support Warhammer 1 and other games)
 - [x] Enable/Disable all mods
 - [x] Add menu options for Importing and Exporting profiles (to any other location on the machine than the usual scripts folder for sharing)
-- [x] Support for Warhammer I has been added! 
+- [x] Support for Warhammer I has been removed
 - [x] Fix for profiles not loading correctly
 - [x] Fix for column sorting incorrectly interacting with profiles
 - [x] New menu option to use the last profile used at startup
-- [x] New menu option to use Warhammer 1 or 2 (which is restored at application startup)
+- [x] New menu option to use Warhammer 1 or 2 (which is restored at application startup) (disabled for now)
 - [x] New menu option to export a profile for sharing with others
 - [x] New menu option to import a profile (will silently ignore any pack files that are missing at this time, more work will be done on this in the future)
 - [x] Right clicking a row will launch a new form which will show the file contents of the Mod file
