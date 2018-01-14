@@ -8,12 +8,16 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Menu dropdown for games a dynamic pickup from XML data files
 - [ ] Application preferences are no longer redone every time the application starts and closes
 - [ ] Menu item for changing game directory will now reset file paths allowing the user to rechoose exe locations
-- [ ] Evaluate PackFileManager approach to Total War file paths and pack files
+- [ ] Evaluate PackFileManager approach to Total War file paths and pack files (script path, user script file path, appdata root, data path, exe path, exe name, etc)
 - [ ] Remove all legacy pack file implementations
 - [ ] Importing a profile with a mod you don't have subscribed will pop a custom form displaying which mods are missing (pack file names for now, steam URLs in the future)
-- [ ] Install Rome 2 and generate a data XML file (since I own the game)
-- [ ] Warhammer 1 Support Added
-- [ ] Rome 1 Support Added
+- [ ] Generate data file for Rome 2
+- [ ] Rome 2 support added
+- [ ] Warhammer 1 support added
+- [ ] Switch to 100% XML driven data files (remove dependency on internal WH2 data file list) - **Required before Tomb Kings arrive**
+- [ ] Remove stopwatches 
+- [ ] Create new GUI/form for choosing which Games you want to enable
+- [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
 
 ## Current Mod Manager Features:
 
@@ -50,7 +54,6 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 ## Upcoming Features:
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
-- [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Conflict GUI could show more information on what it is conflicting with for each Mod
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
@@ -60,8 +63,6 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Number of Mods activated listed
 - [ ] Rework Data files and AppIds to XML files enabling the Mod Manager to support other Total War games 
 - [ ] Thumbnail mode where each row is larger but shows an inline thumbnail for the Mod (probably a dozen rows at once)
-- [ ] Importing a profile with a mod you don't have subscribed will pop an error message detailing which mods are missing (pack file names for now, steam URLs in the future)
-- [ ] Install Rome 2 and generate a data XML file (since I own the game)
 - [ ] Ctrl/shift (keys TBD) select to allow moving multiple mods at a time
 - [ ] Ability to categorize rows using the steam categories
 - [ ] Add preference to remember last UI setting
