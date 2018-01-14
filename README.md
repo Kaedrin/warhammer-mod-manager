@@ -1,7 +1,7 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-## New Version 1.1a Features:
+## New Version 1.1b Features:
 - [x] Improved file loading using parallel processing
 - [x] Moved Data files and AppIds to XML files preparing the Mod Manager to support Warhammer 1 (needs more work to support Warhammer 1 and other games)
 - [x] Enable/Disable all mods
@@ -18,6 +18,8 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Move contact message to menu option
 - [x] Profiles now only save the Mods that are enabled for speed/efficiency 
 - [x] Improved sizing/resizing elements of the GUI to better support 16x9 resolutions and large fonts.
+- [x] Messages about Warhammer 1 install missing removed (v1.1b)
+- [x] Support for Warhammer 1 removed (v1.1a)
 
 ## Current Mod Manager Features:
 
