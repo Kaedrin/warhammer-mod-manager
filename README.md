@@ -71,4 +71,4 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Ability to categorize rows using the steam categories
 - [ ] Add preference to remember last UI setting
   
-  ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/v1.1/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
+  ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
