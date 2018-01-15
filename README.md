@@ -19,6 +19,7 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Create new GUI/form for choosing which Games you want to enable
 - [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
 - [ ] Text box to enter search text to filter the list view down, empty the box to restore the list view
+- [ ] Detect any unsubscribed/deleted Mod and make a local backup before Launch
 
 ## Current Mod Manager Features:
 
