@@ -4,6 +4,7 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 ## New Version 1.2 Features:
 - [ ] New path system parsed from XML 
 - [ ] Application preferences moved to an XML based system
+- [ ] Last Used Profile application preference enabled when it's not ready yet
 - [ ] Data XML expanded to include new information needed (file exe name, script path name, etc)
 - [ ] Menu dropdown for games a dynamic pickup from XML data files
 - [ ] Application preferences are no longer redone every time the application starts and closes
@@ -17,6 +18,7 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Switch to 100% XML driven data files (remove dependency on internal WH2 data file list) - **Required before Tomb Kings arrive**
 - [ ] Remove stopwatches 
 - [ ] Create new GUI/form for choosing which Games you want to enable
+- [ ] Mod Manager is auto-aware of War2, will prompt if it is not there if you want to scan for other games. Otherwise you need to use the menu option to enable other games.
 - [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
 - [ ] Text box to enter search text to filter the list view down, empty the box to restore the list view
 - [ ] Detect any unsubscribed/deleted Mod and make a local backup before Launch
