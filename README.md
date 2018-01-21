@@ -10,13 +10,13 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Application preferences are no longer redone every time the application starts and closes
 - [ ] Menu item for changing game directory will now reset file paths allowing the user to rechoose exe locations
 - [ ] Evaluate PackFileManager approach to Total War file paths and pack files (script path, user script file path, appdata root, data path, exe path, exe name, etc)
-- [ ] Remove all legacy pack file implementations
+- [x] Remove all legacy pack file implementations
 - [ ] Importing a profile with a mod you don't have subscribed will pop a custom form displaying which mods are missing (pack file names for now, steam URLs in the future)
 - [ ] Generate data file for Rome 2
 - [ ] Rome 2 support added
 - [ ] Warhammer 1 support added
-- [ ] Switch to 100% XML driven data files (remove dependency on internal WH2 data file list) - **Required before Tomb Kings arrive**
-- [ ] Remove stopwatches 
+- [x] Switch to 100% XML driven data files (remove dependency on internal WH2 data file list) - **Required before Tomb Kings arrive**
+- [x] Remove stopwatches 
 - [ ] Create new GUI/form for choosing which Games you want to enable
 - [ ] Mod Manager is auto-aware of War2, will prompt if it is not there if you want to scan for other games. Otherwise you need to use the menu option to enable other games.
 - [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
