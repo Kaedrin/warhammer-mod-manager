@@ -7,7 +7,6 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Solved how to get which Total War games are installed for next version
 - [x] Data XML expanded to include new information needed (file exe name, etc)
 - [x] Found how to import CA Mod Launcher settings for first time users, will include in a future version
-=======
 
 ## Current Mod Manager Features:
 - [x] Ability to load, save, and delete profiles of activated Mods
