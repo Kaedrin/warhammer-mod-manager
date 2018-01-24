@@ -1,7 +1,6 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-<<<<<<< HEAD
 ## New Version 1.2 Features:
 - [x] Switched to 100% XML driven data files (remove dependency on internal WH2 data file list)
 - [x] Remove all legacy pack file implementations
@@ -9,29 +8,8 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Data XML expanded to include new information needed (file exe name, etc)
 - [x] Found how to import CA Mod Launcher settings for first time users, will include in a future version
 =======
-## New Version 1.1b Features:
-- [x] Improved file loading using parallel processing
-- [x] Moved Data files and AppIds to XML files preparing the Mod Manager to support Warhammer 1 (needs more work to support Warhammer 1 and other games)
-- [x] Enable/Disable all mods
-- [x] Add menu options for Importing and Exporting profiles (to any other location on the machine than the usual scripts folder for sharing)
-- [x] Support for Warhammer I has been removed
-- [x] Fix for profiles not loading correctly
-- [x] Fix for column sorting incorrectly interacting with profiles
-- [x] New menu option to use the last profile used at startup
-- [x] New menu option to use Warhammer 1 or 2 (which is restored at application startup) (disabled for now)
-- [x] New menu option to export a profile for sharing with others
-- [x] New menu option to import a profile (will silently ignore any pack files that are missing at this time, more work will be done on this in the future)
-- [x] Right clicking a row will launch a new form which will show the file contents of the Mod file
-- [x] Move data file path to menu option
-- [x] Move contact message to menu option
-- [x] Profiles now only save the Mods that are enabled for speed/efficiency 
-- [x] Improved sizing/resizing elements of the GUI to better support 16x9 resolutions and large fonts.
-- [x] Messages about Warhammer 1 install missing removed (v1.1b)
-- [x] Support for Warhammer 1 removed (v1.1a)
->>>>>>> master
 
 ## Current Mod Manager Features:
-
 - [x] Ability to load, save, and delete profiles of activated Mods
 - [x] Ability to change the priority order of Mods
 - [x] Ability to show which Mods are in conflict with each other
@@ -58,6 +36,21 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Solved how to get which Total War games are installed for next version
 - [x] Data XML expanded to include new information needed (file exe name, etc)
 - [x] Found how to import CA Mod Launcher settings for first time users, will include in a future version
+- [x] Improved file loading using parallel processing
+- [x] Moved Data files and AppIds to XML files preparing the Mod Manager to support other Total War games (needs more work to support Warhammer 1 and other games)
+- [x] Enable/Disable all mods option added
+- [x] Added menu options for Importing and Exporting profiles (to any other location on the machine than the usual scripts folder for sharing)
+- [x] Fix for profiles not loading correctly
+- [x] Fix for column sorting incorrectly interacting with profiles
+- [x] New menu option to use the last profile used at startup
+- [x] New menu option to use Warhammer 1 or 2 (which is restored at application startup) (disabled for now)
+- [x] New menu option to export a profile for sharing with others
+- [x] New menu option to import a profile (will silently ignore any pack files that are missing at this time, more work will be done on this in the future)
+- [x] Right clicking a row will launch a new form which will show the file contents of the Mod file
+- [x] Moved data file path to menu option
+- [x] Moved contact message to menu option
+- [x] Profiles now only save the Mods that are enabled for speed/efficiency 
+- [x] Improved sizing/resizing elements of the GUI to better support 16x9 resolutions and large fonts.
 
 ## Requirements:
 
