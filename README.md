@@ -60,6 +60,7 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 as well_**
 
 ## Upcoming Features:
+- [ ] Bug fix for import profiles not showing new profile until you hit refresh
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
