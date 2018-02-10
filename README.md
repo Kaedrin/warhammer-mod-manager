@@ -15,6 +15,8 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
 - [ ] Add help menu item
+- [ ] Moving mods/up down with the arrows show their PNG
+
 
 ## Current Mod Manager Features:
 - [x] Ability to load, save, and delete profiles of activated Mods
