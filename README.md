@@ -1,12 +1,20 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-## New Version 1.2 Features:
-- [x] Switched to 100% XML driven data files (remove dependency on internal WH2 data file list)
-- [x] Remove all legacy pack file implementations
-- [x] Solved how to get which Total War games are installed for next version
-- [x] Data XML expanded to include new information needed (file exe name, etc)
-- [x] Found how to import CA Mod Launcher settings for first time users, will include in a future version
+## New Version 1.3 Features:
+- [ ] Rome 2 support added
+- [ ] Warhammer 1 support added
+- [ ] Attila support added
+- [ ] Empire support added
+- [ ] Shogun 2 support added
+- [ ] Napoleon support added
+- [ ] New path system parsed from XML 
+- [ ] Last Used Profile application preference enabled when it's not ready yet
+- [ ] Menu dropdown for games a dynamic pickup from XML data files
+- [ ] Application preferences are no longer redone every time the application starts and closes
+- [ ] Better support for smaller resolutions with resizing and adjusted placement
+- [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
+- [ ] Add help menu item
 
 ## Current Mod Manager Features:
 - [x] Ability to load, save, and delete profiles of activated Mods
@@ -64,23 +72,14 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
-- [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
-- [ ] Add help menu item
 - [ ] Full source code check in
 - [ ] WPF-based ground up rewrite of the GUI
 - [ ] Number of Mods activated listed
 - [ ] Thumbnail mode where each row is larger but shows an inline thumbnail for the Mod (probably a dozen rows at once)
 - [ ] Ctrl/shift (keys TBD) select to allow moving multiple mods at a time
 - [ ] Ability to categorize rows using the steam categories
-- [ ] New path system parsed from XML 
-- [ ] Last Used Profile application preference enabled when it's not ready yet
-- [ ] Menu dropdown for games a dynamic pickup from XML data files
-- [ ] Application preferences are no longer redone every time the application starts and closes
 - [ ] Menu item for changing game directory will now reset file paths allowing the user to rechoose exe locations
 - [ ] Importing a profile with a mod you don't have subscribed will pop a custom form displaying which mods are missing (pack file names for now, steam URLs in the future)
-- [ ] Rome 2 support added
-- [ ] Warhammer 1 support added
-- [ ] Attila support added
 - [ ] Create new GUI/form for choosing which Games you want to enable
 - [ ] Mod Manager is auto-aware of War2, will prompt if it is not there if you want to scan for other games. Otherwise you need to use the menu option to enable other games.
 - [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
