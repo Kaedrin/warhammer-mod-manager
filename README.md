@@ -1,22 +1,17 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-## New Version 1.3 Features:
-- [ ] Rome 2 support added
-- [ ] Warhammer 1 support added
-- [ ] Attila support added
-- [ ] Empire support added
-- [ ] Shogun 2 support added
-- [ ] Napoleon support added
-- [ ] New path system parsed from XML 
-- [ ] Last Used Profile application preference enabled when it's not ready yet
-- [ ] Menu dropdown for games a dynamic pickup from XML data files
-- [ ] Application preferences are no longer redone every time the application starts and closes
-- [ ] Better support for smaller resolutions with resizing and adjusted placement
-- [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
-- [ ] Add help menu item
-- [ ] Moving mods/up down with the arrows show their PNG
+## Bug Fixes for v1.3:
+- [x] Settings file for old versions of the mod manager deleted at startup to reduce conflicts
+- [x] Moving mods/up down with the arrows show their PNG
 
+## Changes due to the new Creative Assembly Launcher/Mod Manager:
+
+Due to a change in the Creative Assembly Launcher/Mod Manager and how it handles .pack files, I've added new code to handle this and make it mod friendly again. The CA Launcher now uses both the \Steam\steamapps\workshop\content and \Steam\steamapps\common\Total War WARHAMMER II\data folder for mods. Any mods that have been added or updated since the new CA Launcher was released have been switched to use the new Content folder and the .pack file will ONLY be found there by default. So mod developers/users who are looking for their files and can't find them... that's where they dissapeared to. 
+
+In order to keep it easy for developers to open mods with PFM/RPFM and for the KMM to see all of the mods in a single place, I've added code to move all of the mods out of the content folder and in to the data folder. The files are removed from the content folder once this happens (and the old format .bin files are also removed to save space and speed up the process). Any time a mod is updated it will be downloaded like normal. There are no downsides to removing the content from this folder (I spent the weekend testing the hell out of this). You can always delete your data folder items and it will redownload the files back into the content folder (for those affected by the new launcher, those not will be re-downloaded back into data of course).
+
+**WARNING If you see the CA launcher download any files, once it is finished downloading you need to click the refresh button in the KMM in order for the KMM to move those new and/or updated mods to the data folder. The refresh button will scan the content folder again and display any newly subscribed mods in the list as usual.**
 
 ## Current Mod Manager Features:
 - [x] Ability to load, save, and delete profiles of activated Mods
@@ -60,6 +55,9 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Moved contact message to menu option
 - [x] Profiles now only save the Mods that are enabled for speed/efficiency 
 - [x] Improved sizing/resizing elements of the GUI to better support 16x9 resolutions and large fonts.
+- [x] Number of Mods activated listed
+- [x] Settings file for old versions of the mod manager deleted at startup to reduce conflicts
+- [x] Moving mods/up down with the arrows show their PNG
 
 ## Requirements:
 
@@ -70,13 +68,25 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 as well_**
 
 ## Upcoming Features:
+- [ ] Rome 2 support added
+- [ ] Warhammer 1 support added
+- [ ] Attila support added
+- [ ] Empire support added
+- [ ] Shogun 2 support added
+- [ ] Napoleon support added
+- [ ] New path system parsed from XML 
+- [ ] Last Used Profile application preference enabled when it's not ready yet
+- [ ] Menu dropdown for games a dynamic pickup from XML data files
+- [ ] Application preferences are no longer redone every time the application starts and closes
+- [ ] Better support for smaller resolutions with resizing and adjusted placement
+- [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
+- [ ] Add help menu item
 - [ ] Bug fix for import profiles not showing new profile until you hit refresh
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Full source code check in
 - [ ] WPF-based ground up rewrite of the GUI
-- [ ] Number of Mods activated listed
 - [ ] Thumbnail mode where each row is larger but shows an inline thumbnail for the Mod (probably a dozen rows at once)
 - [ ] Ctrl/shift (keys TBD) select to allow moving multiple mods at a time
 - [ ] Ability to categorize rows using the steam categories
