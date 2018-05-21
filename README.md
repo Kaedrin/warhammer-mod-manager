@@ -4,12 +4,14 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 ## Bug Fixes for v1.3:
 - [x] Settings file for old versions of the mod manager deleted at startup to reduce conflicts
 - [x] Moving mods/up down with the arrows show their PNG
+- [x] Issues with mods being missing due to the new CA Launcher
+
 
 ## Changes due to the new Creative Assembly Launcher/Mod Manager:
 
 Due to a change in the Creative Assembly Launcher/Mod Manager and how it handles .pack files, I've added new code to handle this and make it mod friendly again. The CA Launcher now uses both the \Steam\steamapps\workshop\content and \Steam\steamapps\common\Total War WARHAMMER II\data folder for mods. Any mods that have been added or updated since the new CA Launcher was released have been switched to use the new Content folder and the .pack file will ONLY be found there by default. So mod developers/users who are looking for their files and can't find them... that's where they dissapeared to. 
 
-In order to keep it easy for developers to open mods with PFM/RPFM and for the KMM to see all of the mods in a single place, I've added code to move all of the mods out of the content folder and in to the data folder. The files are removed from the content folder once this happens (and the old format .bin files are also removed to save space and speed up the process). Any time a mod is updated it will be downloaded like normal. There are no downsides to removing the content from this folder (I spent the weekend testing the hell out of this). You can always delete your data folder items and it will redownload the files back into the content folder (for those affected by the new launcher, those not will be re-downloaded back into data of course).
+In order to keep it easy for developers to open mods with PFM/RPFM and for the KMM to see all of the mods in a single place, I've added code to move all of the mods out of the content folder and in to the data folder. The files are removed from the content folder once this happens (and the old format .bin files are also removed to save space and speed up the process). Any time a mod is updated it will be downloaded like normal. There are no downsides to removing the content from this folder (I spent the weekend testing the hell out of this). You can always delete your data folder items and it will redownload the files back into the content folder (for those affected by the new launcher, those not will be re-downloaded back into data of course). If the "last modified" timestamp on your data folder is newer than the one in content, the file will not be updated so users who modify the works of a mod developer should rename the work in order to ensure getting future updates.
 
 **WARNING If you see the CA launcher download any files, once it is finished downloading you need to click the refresh button in the KMM in order for the KMM to move those new and/or updated mods to the data folder. The refresh button will scan the content folder again and display any newly subscribed mods in the list as usual.**
 
