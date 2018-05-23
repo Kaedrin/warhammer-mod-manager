@@ -1,0 +1,10 @@
+Data path option under information now mentions that revert will delete the application preferences so that you can restart the application and have it scan for a new install location.
+
+Revert now deletes the application preference
+
+New way of handling settings implemented which should improve their reliability
+
+Bug in old settings handling fixed which should take care of the issue where it couldn't find the .exe and you had to manually delete the application preferences at times
+
+Steam Beta integration added (enable/disable reloads, pulls steam info for all subscribed mods and user name for author id)
+
