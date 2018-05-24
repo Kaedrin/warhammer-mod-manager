@@ -8,3 +8,10 @@ Bug in old settings handling fixed which should take care of the issue where it 
 
 Steam Beta integration added (enable/disable reloads, pulls steam info for all subscribed mods and user name for author id)
 
+1.4 Beta 2
+
+Last Used Mods now works again
+Batch file no longer needed when using steam mode
+Identified problem mods that don't have a file name via the steam interface ?! Will use the HTML Agility pack to pull the title and author in order to sync it back up. 
+Identified problem mods that are private/removed. Will review how to handle.
+
