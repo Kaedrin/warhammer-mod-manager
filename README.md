@@ -1,3 +1,7 @@
+# Beta for 1.4 Temporarily pulled
+I'm working on some changes to how the steam is integrated and I want to see if I can work out the issues with some steam items not having any details (196/208 have full details, 4 were deleted by the owner, but 8 are currently mods folks are reporting issues with).
+
+
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
