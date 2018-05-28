@@ -1,17 +1,15 @@
 Data path option under information now mentions that revert will delete the application preferences so that you can restart the application and have it scan for a new install location.
 
-Revert now deletes the application preference
+Revert now deletes the application preference and the user.script.txt file
 
 New way of handling settings implemented which should improve their reliability
 
-Bug in old settings handling fixed which should take care of the issue where it couldn't find the .exe and you had to manually delete the application preferences at times
+Bug in old settings handling fixed which should take care of the issue where it couldn't find the .exe and you had to manually delete the application preferences at times. 
 
-Steam Beta integration added (enable/disable reloads, pulls steam info for all subscribed mods and user name for author id)
+Steam files added but integration disabled for now, waiting for the update on the 31st.
 
-1.4 Beta 2
+"Last Used Mods" Profile now works again
 
-Last Used Mods now works again
-Batch file no longer needed when using steam mode
-Identified problem mods that don't have a file name via the steam interface ?! Will use the HTML Agility pack to pull the title and author in order to sync it back up. 
-Identified problem mods that are private/removed. Will review how to handle.
+Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.5 will flag this file is being altered and an update being available from the author.
+
 
