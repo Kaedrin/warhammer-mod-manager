@@ -1,6 +1,10 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
+
+## Bug Fixes for v1.4.1:
+- [x] Code to handle content folder restored (released too quickly to go to dinner, sorry folks!)
+
 ## Bug Fixes for v1.4:
 - [x] Non-Warhammer 2 games have been disabled to prevent issues until support for them is added in either this line or the 2.0 line
 - [x] Data path option under information now mentions that revert will delete the application preferences so that you can restart the application and have it scan for a new install location.
