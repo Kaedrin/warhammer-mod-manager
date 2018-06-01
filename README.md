@@ -2,24 +2,26 @@
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
 
-## Bug Fixes for v1.4.1:
-- [x] Code to handle content folder restored (released too quickly to go to dinner, sorry folks!)
+## Changes and Bug Fixes for v1.5:
+- [x] Closing KMM deletes the user.script.txt file (assists mod authors with developing scripts)
+- [x] Clean Data button added (with confirmation) - this will remove all mods from your Data folder. Mods that have no been updated yet will have to be re-downloaded
+- [x] Warhammer 1 support added
+- [x] Thrones of Britannia support added
+- [x] KMM now checks to see if War2, War1, and Throb are installed at start and enables/disables their menu item appropriately
+- [x] Application settings have been moved to \AppData\Roaming\Kaedrin Mod Manager
+- [x] Profiles are now saved by game
+- [x] Importing a profile now shows up in the Profiles selection list without having to click Refresh
+- [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.6 will flag this file is being altered and an update being available from the author.
 
-## Bug Fixes for v1.4:
-- [x] Non-Warhammer 2 games have been disabled to prevent issues until support for them is added in either this line or the 2.0 line
-- [x] Data path option under information now mentions that revert will delete the application preferences so that you can restart the application and have it scan for a new install location.
-- [x] Revert now deletes the application preference and the user.script.txt file
-- [x] New way of handling settings implemented which should improve their reliability
-- [x] Bug in old settings handling fixed which should take care of the issue where it couldn't find the .exe and you had to manually delete the application preferences at times. 
-- [x] Steam files added but integration disabled for now, waiting for the update on the 31st.
-- [x] "Last Used Mods" Profile now works again
-- [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.5 will flag this file is being altered and an update being available from the author.
+## Known Issue: Existing Warhammer 2 profiles will need to be imported manually from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder
+
+You can manually copy them from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder to the \AppData\Roaming\Kaedrin Mod Manager\Profiles\Warhammer2 folder
 
 ## Changes due to the new Creative Assembly Launcher/Mod Manager:
 
 Due to a change in the Creative Assembly Launcher/Mod Manager and how it handles .pack files, I've added new code to handle this and make it mod friendly again. The CA Launcher now uses both the \Steam\steamapps\workshop\content and \Steam\steamapps\common\Total War WARHAMMER II\data folder for mods. Any mods that have been added or updated since the new CA Launcher was released have been switched to use the new Content folder and the .pack file will ONLY be found there by default. So mod developers/users who are looking for their files and can't find them... that's where they dissapeared to. 
 
-In order to keep it easy for developers to open mods with PFM/RPFM and for the KMM to see all of the mods in a single place, I've added code to move all of the mods out of the content folder and in to the data folder. The files are left in the content folder once this happens (and the old format .bin files are also removed to save space and speed up the process). Any time a mod is updated it will be downloaded like normal. If the "last modified" timestamp on your data folder is newer than the one in content, the file will not be updated so users who modify the works of a mod developer should rename the work in order to ensure getting future updates. I'll be working to cache this out in an xml file to speed the process up more for the v1.5 update.
+In order to keep it easy for developers to open mods with PFM/RPFM and for the KMM to see all of the mods in a single place, I've added code to copy all of the mods out of the content folder and in to the data folder. The files are left in the content folder once this happens (and the old format .bin files are also removed to save space and speed up the process). Any time a mod is updated it will be downloaded like normal. If the "last modified" timestamp on your data folder is newer than the one in content, the file will not be updated so users who modify the works of a mod developer should rename the work in order to ensure getting future updates. I'll be working to cache this out in an xml file to speed the process up more for the v1.6 update.
 
 **WARNING If you see the CA launcher download any files, once it is finished downloading you need to click the refresh button in the KMM in order for the KMM to move those new and/or updated mods to the data folder. The refresh button will scan the content folder again and display any newly subscribed mods in the list as usual.**
 
@@ -71,30 +73,43 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - [x] Settings file for old versions of the mod manager deleted at startup to reduce conflicts
 - [x] Moving mods/up down with the arrows show their PNG
 - [x] Issues with mods being missing due to the new CA Launcher
+- [x] Data path option under information now mentions that revert will delete the application preferences so that you can restart the application and have it scan for a new install location.
+- [x] Revert now deletes the application preference and the user.script.txt file
+- [x] New way of handling settings implemented which should improve their reliability
+- [x] Bug in old settings handling fixed which should take care of the issue where it couldn't find the .exe and you had to manually delete the application preferences at times. 
+- [x] Steam files added but integration disabled for now, waiting for the update on the 31st.
+- [x] "Last Used Mods" Profile now works again
+- [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.5 will flag this file is being altered and an update being available from the author.
+- [x] Closing KMM deletes the user.script.txt file (assists mod authors with developing scripts)
+- [x] Clean Data button added (with confirmation) - this will remove all mods from your Data folder. Mods that have no been updated yet will have to be re-downloaded
+- [x] Warhammer 1 support added
+- [x] Thrones of Britannia support added
+- [x] KMM now checks to see if War2, War1, and Throb are installed at start and enables/disables their menu item appropriately
+- [x] Application settings have been moved to \AppData\Roaming\Kaedrin Mod Manager
+- [x] Profiles are now saved by game
+- [x] Importing a profile now shows up in the Profiles selection list without having to click Refresh
+- [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.6 will flag this file is being altered and an update being available from the author.
 
 ## Requirements:
 
 - DotNet v4.5 Framework installed
 - Resolution at least 1400x850 or better
-- Either Warhammer 2 or Warhammer 1 installed
-- **_You MUST disable ALL mods in the CA Mod Manager BEFORE Launch in the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 as well_**
-- **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 as well_**
+- Either Warhammer 2, Warhammer 1, or Thrones of Britannia installed
+- **_You MUST disable ALL mods in the CA Mod Manager BEFORE Launch in the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 and Thrones of Britannia as well_**
+- **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 and Thrones of Britannia as well_**
 
 ## Upcoming Features:
 - [ ] Rome 2 support added
-- [ ] Warhammer 1 support added
 - [ ] Attila support added
 - [ ] Empire support added
 - [ ] Shogun 2 support added
 - [ ] Napoleon support added
 - [ ] New path system parsed from XML 
-- [ ] Last Used Profile application preference enabled when it's not ready yet
 - [ ] Menu dropdown for games a dynamic pickup from XML data files
 - [ ] Application preferences are no longer redone every time the application starts and closes
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
 - [ ] Add help menu item
-- [ ] Bug fix for import profiles not showing new profile until you hit refresh
 - [ ] New column added indicated the priority of the activated mods
 - [ ] Drag and drop capability for the ListView
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
@@ -107,7 +122,7 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - [ ] Importing a profile with a mod you don't have subscribed will pop a custom form displaying which mods are missing (pack file names for now, steam URLs in the future)
 - [ ] Create new GUI/form for choosing which Games you want to enable
 - [ ] Mod Manager is auto-aware of War2, will prompt if it is not there if you want to scan for other games. Otherwise you need to use the menu option to enable other games.
-- [ ] Limited Steam Integration (Title, Author, Required Mods) and a checkbox to enable/disable
+- [ ]  Steam Integration (Title, Author, Required Mods,etc) and a checkbox to enable/disable
 - [ ] Text box to enter search text to filter the list view down, empty the box to restore the list view
 - [ ] Detect any unsubscribed/deleted Mod and make a local backup before Launch
 - [ ] Include ability to import CA Mod Launcher settings for first time users
