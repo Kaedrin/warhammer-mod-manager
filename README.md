@@ -13,6 +13,8 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Importing a profile now shows up in the Profiles selection list without having to click Refresh
 - [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.6 will flag this file is being altered and an update being available from the author.
 
+## Known Issue: If you have your Steam install on one drive and your data on another, the KMM will fail to find the install. This will be fixed in v1.6 where I'll add the ability for the user to browse to where the Game is installed and select it.
+
 ## Known Issue: Existing Warhammer 2 profiles will need to be imported manually from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder
 
 You can manually copy them from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder to the \AppData\Roaming\Kaedrin Mod Manager\Profiles\Warhammer2 folder
