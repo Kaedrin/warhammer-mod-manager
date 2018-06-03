@@ -1,8 +1,7 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-
-## Changes and Bug Fixes for v1.5:
+## Changes and Bug Fixes for v1.6:
 - [x] Closing KMM deletes the user.script.txt file (assists mod authors with developing scripts)
 - [x] Clean Data button added (with confirmation) - this will remove all mods from your Data folder. Mods that have no been updated yet will have to be re-downloaded
 - [x] Warhammer 1 support added
@@ -13,11 +12,9 @@ The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by Mit
 - [x] Importing a profile now shows up in the Profiles selection list without having to click Refresh
 - [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.6 will flag this file is being altered and an update being available from the author.
 
-## Known Issue: If you have your Steam install on one drive and your data on another, the KMM will fail to find the install. This will be fixed in v1.6 where I'll add the ability for the user to browse to where the Game is installed and select it.
-
 ## Known Issue: Existing Warhammer 2 profiles will need to be imported manually from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder
 
-You can manually copy them from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder to the \AppData\Roaming\Kaedrin Mod Manager\Profiles\Warhammer2 folder
+You can manually copy them from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder to the \AppData\Roaming\Kaedrin Mod Manager\Profiles\Warhammer2 folder. The easiest way to get to appdata is to type %appdata% in windows explorer.
 
 ## Changes due to the new Creative Assembly Launcher/Mod Manager:
 
@@ -91,6 +88,14 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - [x] Profiles are now saved by game
 - [x] Importing a profile now shows up in the Profiles selection list without having to click Refresh
 - [x] Content folder now keeps the .pack file for steam integration but a copy to data unless a newer filestamp is found (ie, the user has altered the file on their own). Version 1.6 will flag this file is being altered and an update being available from the author.
+- [x] Issue with Steam being installed on one drive and a game being installed on another drive fixed
+- [x] Error Creating Profile when switching to a game fixed (directory doesn't exist bug)
+- [x] Clean Data wrapped in a try/catch so if a process is playing with your files, you won't see an error. The files remain.
+- [x] Delete user.script.txt on startup
+- [x] AppId (Steam Integration text file) deleted at startup 
+- [x] Add clean data to the File menu
+- [x] Install detection routine will now use Steam for the first check. This will prompt the user that the application will exit after writing out the install paths. You will need to restart the mod manager after this one time detection of install location happens.
+
 
 ## Requirements:
 
