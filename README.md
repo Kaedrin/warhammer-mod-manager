@@ -1,14 +1,13 @@
 # New Mod Manager for Warhammer 2
 The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
 
-## Changes and Bug Fixes for v1.6:
-- [x] Issue with Steam being installed on one drive and a game being installed on another drive fixed
-- [x] Error Creating Profile when switching to a game fixed (directory doesn't exist bug)
-- [x] Clean Data wrapped in a try/catch so if a process is playing with your files, you won't see an error. The files remain.
-- [x] Delete user.script.txt on startup
-- [x] AppId (Steam Integration text file) deleted at startup 
-- [x] Add clean data to the File menu
-- [x] Install detection routine will now use Steam for the first check. This will prompt the user that the application will exit after writing out the install paths. You will need to restart the mod manager after this one time detection of install location happens.
+## Changes and Bug Fixes for v1.7 Beta:
+- [x] Movie packs will now show up in the List (they were loading but not displaying)
+- [x] Batch file method of calling the game exe removed (this should reduce antivirus reports)
+- [x] Install folder scan now checks if folder exists that steam reports (since apparently steam reports folders that don't exist or users don't have anymore)
+- [x] Warhammer 2 installation is no longer required for Warhammer 1 or Thrones of Britannia
+- [x] Steam install detection issues when you don't have Warhammer 2 installion fixed
+- [x] Copy files wrapped in an access violation check (should prevent issues with copying files that are being downloaded)
 
 ## Known Issue: Existing Warhammer 2 profiles will need to be imported manually from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder
 
@@ -93,7 +92,12 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - [x] AppId (Steam Integration text file) deleted at startup 
 - [x] Add clean data to the File menu
 - [x] Install detection routine will now use Steam for the first check. This will prompt the user that the application will exit after writing out the install paths. You will need to restart the mod manager after this one time detection of install location happens.
-
+- [x] Movie packs will now show up in the List (they were loading but not displaying)
+- [x] Batch file method of calling the game exe removed (this should reduce antivirus reports)
+- [x] Install folder scan now checks if folder exists that steam reports (since apparently steam reports folders that don't exist or users don't have anymore)
+- [x] Warhammer 2 installation is no longer required for Warhammer 1 or Thrones of Britannia
+- [x] Steam install detection issues when you don't have Warhammer 2 installion fixed
+- [x] Copy files wrapped in an access violation check (should prevent issues with copying files that are being downloaded)
 
 ## Requirements:
 
