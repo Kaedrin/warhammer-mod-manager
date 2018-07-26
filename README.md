@@ -1,6 +1,10 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.7.2:
+
+- [x] Fixed date sorting bug that broke profiles
+
 ## Changes and Bug Fixes for v1.7.1:
 
 - [x] Extended timeout on version check and wrapped it in an exception check. 
