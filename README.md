@@ -1,13 +1,57 @@
-# New Mod Manager for Warhammer 2
-The new mod manager for Warhammer 2 is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will allow support for Warhammer 3 and potentially other Total War games as well as limited Steam integration.
+# New Mod Manager for Total War
+The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
-## Changes and Bug Fixes for v1.7 Beta:
+## Changes and Bug Fixes for v1.7:
+
+New Functionality:
+- [x] Right clicking on list of mods has the following new options:
+- [x] Show Contents
+- [x] Open with PFM
+- [x] Open with RPFM
+- [x] Save to Archive
+- [x] Restore from Archive
+- [x] Delete from Data (Delete does not remove from backup)
+- [x] Copy (appends an  _ copy to the end of the pack name without the space between the _ and copy) 
+- [x] Rename
+
+New Menu Options
+- [x] Clean Data
+- [x] Option to Highlight Recent Mods
+- [x] Option to Backup Mods
+- [x] Option to Choose PFM Location
+- [x] Option to Choose RPFM Location
+- [x] Option to Choose Archive Location
+- [x] Detect Game Installations
+
+- [x] Mod Manager now displays what the latest version available is
+
 - [x] Movie packs will now show up in the List (they were loading but not displaying)
 - [x] Batch file method of calling the game exe removed (this should reduce antivirus reports)
 - [x] Install folder scan now checks if folder exists that steam reports (since apparently steam reports folders that don't exist or users don't have anymore)
 - [x] Warhammer 2 installation is no longer required for Warhammer 1 or Thrones of Britannia
 - [x] Steam install detection issues when you don't have Warhammer 2 installion fixed
 - [x] Copy files wrapped in an access violation check (should prevent issues with copying files that are being downloaded)
+- [x] Issue with Steam being installed on one drive and a game being installed on another drive fixed
+- [x] Error Creating Profile when switching to a game fixed (directory doesn't exist bug)
+- [x] Clean Data wrapped in a try/catch so if a process is playing with your files, you won't see an error. The files remain.
+- [x] user.script.txt file deleted at startup
+- [x] AppId (Steam Integration text file) deleted at startup
+- [x] AppId (Steam Integration text file) written/deleted on the fly so only used when needed
+- [x] Clean data moved to the File menu
+- [x] Install detection routine will now use Steam for the first check. This will prompt the user that the application will exit after writing out the install paths. You will need to restart the mod manager after this one time detection of install location happens.
+- [x] Warhammer 2 installation is no longer required for Warhammer 1 or Thrones of Britannia
+- [x] Steam install detection issues when you don't have Warhammer 2 installion fixed
+- [x] Movie packs will now show up in the List (they were loading but not displaying)
+- [x] Batch file method of calling the warhammer exe removed (this should reduce antivirus reports)
+- [x] Install folder scan now checks if folder exists that steam reports (since apparently steam reports folders that don't exist or users don't have anymore)
+- [x] Image files (.png) are no longer locked by the GUI when displayed allowing the image to be updated while in use
+- [x] Copy files wrapped in an access violation check (should prevent issues with copying files that are being downloaded)
+- [x] XML data files are no longer needed for each game meaning Patch Day updates are no longer required
+- [x] .Movie pack file format is only supported for Warhammer 1 and Warhammer 2
+- [x] Title bar for Conflicts GUI no longer mentions .pack .pack files
+- [x] All Total War games are now supported
+- [x] Date display in the mod list has been redone and should now sort correctly
+
 
 ## Known Issue: Existing Warhammer 2 profiles will need to be imported manually from the \AppData\Roaming\The Creative Assembly\Warhammer2\scripts folder
 
@@ -108,13 +152,6 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2 - This applies to Warhammer 1 and Thrones of Britannia as well_**
 
 ## Upcoming Features:
-- [ ] Rome 2 support added
-- [ ] Attila support added
-- [ ] Empire support added
-- [ ] Shogun 2 support added
-- [ ] Napoleon support added
-- [ ] New path system parsed from XML 
-- [ ] Menu dropdown for games a dynamic pickup from XML data files
 - [ ] Application preferences are no longer redone every time the application starts and closes
 - [ ] Better support for smaller resolutions with resizing and adjusted placement
 - [ ] Checking an item should move it up to the top with the rest of the checked items (auto-bump)
@@ -129,8 +166,6 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - [ ] Ability to categorize rows using the steam categories
 - [ ] Menu item for changing game directory will now reset file paths allowing the user to rechoose exe locations
 - [ ] Importing a profile with a mod you don't have subscribed will pop a custom form displaying which mods are missing (pack file names for now, steam URLs in the future)
-- [ ] Create new GUI/form for choosing which Games you want to enable
-- [ ] Mod Manager is auto-aware of War2, will prompt if it is not there if you want to scan for other games. Otherwise you need to use the menu option to enable other games.
 - [ ]  Steam Integration (Title, Author, Required Mods,etc) and a checkbox to enable/disable
 - [ ] Text box to enter search text to filter the list view down, empty the box to restore the list view
 - [ ] Detect any unsubscribed/deleted Mod and make a local backup before Launch
