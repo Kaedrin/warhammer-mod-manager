@@ -3,8 +3,9 @@ The new mod manager for Total War is a rework of the Rome 2 mod manager by Mitch
 
 ## Changes and Bug Fixes for v1.7:
 
-New Functionality:
-- [x] Right clicking on list of mods has the following new options:
+### New Functionality:
+
+Right clicking on list of mods has the following new options:
 - [x] Show Contents
 - [x] Open with PFM
 - [x] Open with RPFM
