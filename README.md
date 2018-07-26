@@ -26,6 +26,7 @@ New Menu Options
 
 - [x] Mod Manager now displays what the latest version available is
 
+Changes and Fixes
 - [x] Movie packs will now show up in the List (they were loading but not displaying)
 - [x] Batch file method of calling the game exe removed (this should reduce antivirus reports)
 - [x] Install folder scan now checks if folder exists that steam reports (since apparently steam reports folders that don't exist or users don't have anymore)
