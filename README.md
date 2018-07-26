@@ -172,5 +172,5 @@ In order to keep it easy for developers to open mods with PFM/RPFM and for the K
 - [ ] Text box to enter search text to filter the list view down, empty the box to restore the list view
 - [ ] Detect any unsubscribed/deleted Mod and make a local backup before Launch
 - [ ] Include ability to import CA Mod Launcher settings for first time users
-  
-  ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/WarhammerModManager.JPG "Warhammer 2 Mod Manager Screenshot")
+
+  ![alt text](https://github.com/Kaedrin/warhammer-mod-manager/blob/master/TotalWarModManager.JPG "Total War Mod Manager Screenshot")
