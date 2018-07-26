@@ -3,6 +3,10 @@ The new mod manager for Total War is a rework of the Rome 2 mod manager by Mitch
 
 ## Changes and Bug Fixes for v1.7.1:
 
+- [x] Fixed date sorting bug that broke profiles
+
+## Changes and Bug Fixes for v1.7.1:
+
 - [x] Extended timeout on version check and wrapped it in an exception check. 
 
 ## Changes and Bug Fixes for v1.7:
