@@ -28,7 +28,7 @@ The new mod manager for Total War is a rework of the Rome 2 mod manager by Mitch
 - [x] Link to Total War Mod Troubleshooting Guide added
 - [x] Priority Change tooltip updated with new text
 
-## Known Issue - Napoleon will not work at this time as it doesn't not support the new Content folder scheme and I need to set the manager up to support it strictly from Data. I will add this to 1.8.1 along with the following items: 
+## Known Issue - Napoleon will not work at this time as it doesn't not support the new Content folder scheme and I need to set the manager up to support it strictly from Data. I will add this to 1.8.2 along with the following items: 
 
 - [ ] Support for Napoleon
 - [ ] Ability to upload added
