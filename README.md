@@ -1,6 +1,14 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.8.2:
+
+v1.8.2 is a minor update to show out of date mods for the new Vampire Coast patch while I'm still working on the new features for v1.9. One of them that is currently available as a Beta is the Merge Mods capability with the following features:
+1. All mods that you have checked will be merged together.
+2. The mod you right click to choose the option for will be the one that is chosen for creating a new file with _merge appended at the end.  For example, right clicking on "test.pack" will merge all the checked mods in the grid into a single pack named "test_merge.pack"
+3. Picking the same pack again for the option will currently overwrite the file without warning.
+4. Conflicts are NOT HANDLED AT THIS TIME! Merge modules with conflicts at your own risk of crashing. You have been warned.
+
 ## Changes and Bug Fixes for v1.8.1:
 
 - [x] v1.8.1 fixes the issue with not being able to recognize Steam being started for new users
