@@ -1,6 +1,14 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.8.3:
+
+v1.8.3 is a minor update to show out of date mods for the new "The Prophet and the Warlock" patch while I'm wrapping up the v1.9 update. I'll do a major cleanup of the readme and add a lot more FAQ/instructions soon.
+1. Out of date mods are now flagged correctly for the 17th of April, 2019 *except* for mods which are not on steam (local mods will stay white as I have no way to know if they are updated or not)
+2. Moving your game installation around with Steam will now be detected by the manager and will no longer require you to manually delete the settings file. If you move more than one game file it will still require you to delete the game files until v1.9 however.
+
+## Known Issue - Napoleon will not work at this time as it doesn't not support the new Content folder scheme and I need to set the manager up to support it strictly from Data. I will add this to a future version.  
+
 ## Changes and Bug Fixes for v1.8.2:
 
 v1.8.2 is a minor update to show out of date mods for the new Vampire Coast patch while I'm still working on the new features for v1.9. One of them that is currently available as a Beta is the Merge Mods capability with the following features:
@@ -8,10 +16,6 @@ v1.8.2 is a minor update to show out of date mods for the new Vampire Coast patc
 2. The mod you right click to choose the option for will be the one that is chosen for creating a new file with _merge appended at the end.  For example, right clicking on "test.pack" will merge all the checked mods in the grid into a single pack named "test_merge.pack"
 3. Picking the same pack again for the option will currently overwrite the file without warning.
 4. Conflicts are NOT HANDLED AT THIS TIME! Merge modules with conflicts at your own risk of crashing. You have been warned.
-
-## Changes and Bug Fixes for v1.8.1:
-
-- [x] v1.8.1 fixes the issue with not being able to recognize Steam being started for new users
 
 ## Changes and Bug Fixes for v1.8:
 
@@ -35,15 +39,6 @@ v1.8.2 is a minor update to show out of date mods for the new Vampire Coast patc
 - [x] Error message added for when steam isn't available when KMM is started
 - [x] Link to Total War Mod Troubleshooting Guide added
 - [x] Priority Change tooltip updated with new text
-
-## Known Issue - Napoleon will not work at this time as it doesn't not support the new Content folder scheme and I need to set the manager up to support it strictly from Data. I will add this to 1.8.2 along with the following items: 
-
-- [ ] Support for Napoleon
-- [ ] Ability to upload added
-- [ ] Ability to update mods added
-- [ ] Merge packfile option
-- [ ] Ability for Mod Author's to have a readme.txt displayed via Right Click option
-- [ ] Ability for Mod Author's to have a dependency.xml file indicate which mods must be enabled/subscribed in order to enabled them
 
 ## Changes and Bug Fixes for v1.7:
 
