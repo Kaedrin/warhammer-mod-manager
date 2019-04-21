@@ -1,11 +1,11 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
-## Changes and Bug Fixes for v1.8.5:
+## Changes and Bug Fixes for v1.8.6:
 
-v1.8.4 is a minor update to show out of date mods for the new "The Prophet and the Warlock" patch while I'm wrapping up the v1.9 update. I'll do a major cleanup of the readme and add a lot more FAQ/instructions soon.
+v1.8.6 is a minor update to show out of date mods for the new "The Prophet and the Warlock" patch while I'm wrapping up the v1.9 update. I'll do a major cleanup of the readme and add a lot more FAQ/instructions soon.
 1. Out of date mods are now flagged correctly for the 17th of April, 2019 *except* for mods which are not on steam (local mods will stay white as I have no way to know if they are updated or not)
-2. Moving your game installation around with Steam will now be detected by the manager and will no longer require you to manually delete the settings file. If you move more than one game file it will still require you to delete the game files until v1.9 however.
+2. Removed the capability to handle moving around game installs as this was leading the DLC missing issue for some users. Will revisit this again in v1.9. For now, you can use the "Option - Detect Game Installations" to update pathing or manually delete the GameData.xml from the "Kaedrin Mod Manager" folder in your Roaming Application Data (%appdata% in File Explorer).
 3. File loading has been rewritten to handle the DLC missing for some users with more changes.
 
 ## Known Issue - Napoleon will not work at this time as it doesn't not support the new Content folder scheme and I need to set the manager up to support it strictly from Data. I will add this to a future version.  
