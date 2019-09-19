@@ -1,6 +1,15 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.8.7:
+
+v1.8.7 is a minor update to show out of date mods for the new "The Hunter and the Beast" patch while I'm wrapping up the v1.9 update. I'll do a major cleanup of the readme and add a lot more FAQ/instructions with the v1.9 update.
+
+1. Out of date mods are now flagged correctly for the 17th of April, 2019 *except* for mods which are not on steam (local mods will stay white as I have no way to know if they are updated or not)
+2. The number of movie mods active will now show up above the Refresh button when the number is higher than zero
+3. An additional column has been added to the grid showing the mod type. If you scroll to the right you will see the Mod Type and the Author columns. The Mod Type is useful for tracking down Movie mods, since those are currently loaded up all the time with KMM until the 1.9 udpate. The only way to remove them before the 1.9 update is the unsubscribe to the mod and make sure the file doesn't show up in KMM.
+4. A warning has been added when you try to launch and the grid is not sorted by the File Name column in Alphabetical order. 
+
 ## Changes and Bug Fixes for v1.8.6:
 
 v1.8.6 is a minor update to show out of date mods for the new "The Prophet and the Warlock" patch while I'm wrapping up the v1.9 update. I'll do a major cleanup of the readme and add a lot more FAQ/instructions soon.

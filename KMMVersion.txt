@@ -1,1 +1,1 @@
-Latest Version: 1.8.6
+Latest Version: 1.8.7
