@@ -1,6 +1,15 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.8.10: 
+
+v1.8.10 is a minor update with some fixes for date sorting, a date update for the new Shadow and Blade patch, and under the hood changes for the 2.0 update.
+
+1. Date Sorting should be corrected
+2. Out of date now shows based on the new patch for Shadow and Blade
+3. A fix was put in for invalid table names in pack files (they will no longer crash the manager)
+4. Under the hood changes were done in preparation of the 2.0 update and the uploader tool.
+
 ## Changes and Bug Fixes for v1.8.9:
 
 v1.8.9 is fix to the sorting and profile problems with the mod manager.
