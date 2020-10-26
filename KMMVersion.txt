@@ -1,1 +1,1 @@
-Latest Version: 1.8.10
+Latest Version: 1.8.11
