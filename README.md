@@ -1,6 +1,14 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.8.12: 
+
+v1.8.12 is a minor update with a few fixes, more to come:
+
+1. Warhammer 2 out of date check corrected to support the new "The Twisted and Twilight" DLC
+2. Three Kingdoms now correctly has support for VFX mods
+3. Feature branch for Content loading is moved back to development and will resume after this release
+
 ## Changes and Bug Fixes for v1.8.11: 
 
 v1.8.11 is a minor update with a few fixes, more to come:
