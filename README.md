@@ -8,7 +8,7 @@ v1.8.13 is a minor update with a few fixes, more to come:
 1. Warhammer 2 out of date check corrected to support the new "Rakarth" FLC
 2. TLS Support added for getting latest version information
 3. Steamworks updated to version 15.0 to support Steam
-4. Under the hood changes in preperation of Dark Theme and Content loading for the 1.9 Update which will be going into Alpha soon
+4. Under the hood changes in preparation  of Dark Theme and Content loading for the 1.9 Update which will be going into Alpha soon
 
 ## Changes and Bug Fixes for v1.8.12: 
 
