@@ -3,7 +3,7 @@ The new mod manager for Total War is a rework of the Rome 2 mod manager by Mitch
 
 ## Changes and Bug Fixes for v1.8.13:
 
-v1.8.12 is a minor update with a few fixes, more to come:
+v1.8.13 is a minor update with a few fixes, more to come:
 
 1. Warhammer 2 out of date check corrected to support the new "Rakarth" FLC
 2. TLS Support added for getting latest version information
