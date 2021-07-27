@@ -1,6 +1,29 @@
 # New Mod Manager for Total War
 The new mod manager for Total War is a rework of the Rome 2 mod manager by MitchTWC. Featuring new file parsing, conflict resolution, data file assessment, profile management, and other rewrites this tool is on it's way to be being rewritten from the ground up in a 2.0 version which will feature Steam integration.
 
+## Changes and Bug Fixes for v1.8.15:
+
+v1.8.15 is a major update with a raft of changes, more to come:
+
+1. Out of date check for Warhammer 2 updated for the Silence and the Fury DLC
+2. New option to force trigger downloads when a date discrepancy is detected between the Steam API and Content folder timestamps (Options -> Check Steam for Out of Date Mods). A message will pop up indicating if any are found letting you know that you need to refresh KMM after they are done downloading (check Steam and wait until they are finished downloading before clicking Refresh)
+3. New Option to delete Content files for out of date check (to ensure maximum ability to get the latest, not relying on steam to replace out of date mods with the download but deleting the Content version then letting the download get a fresh copy)
+4. Troubleshooting Guide URL updated
+5. Profiles menu now has a new option for "Export Current Profile to Clipboard" 
+6. Profiles menu now has a new option for "Export Current Profile to HTML" which includes URLs to their steam page(s)
+7. Profiles menu now has a new option for "Export All Mods to HTML" which includes URLs to their steam page(s)
+8. Dark mode options has been added. Changing to dark mode will require a restart of KMM (as will changing back).
+9. Delete from data now correctly whacks the PNG file in all cases
+10. A warning is now given when a Webp malformed image is detected. .WEBP images renamed as .PNG do not work with KMM and .Net programs
+11. Message informs the user when user preferences are reset due to new options being added. Next version will load from old preferences, sorry.
+12. New Right Click option "Delete from Data (Multiple, Any Checked)"
+13. New Right Click option "Unsubscribe from Steam and Delete (Multiple, Any Checked)"
+14. Right Click option "Unsubscribe (Steam) and Delete" renamed "Unsubscribe from Steam and Delete"
+15. RPFM specific files "extra_packfile.rpfm_reserved", "settings.rpfm_reserved" and "notes.rpfm_reserved" are now excluded from conflict checks
+16. Open Data folder option
+17. Open Content folder option
+18. Clean Data and Exit
+
 ## Changes and Bug Fixes for v1.8.14:
 
 v1.8.13 is a minor update with a few fixes, more to come:
