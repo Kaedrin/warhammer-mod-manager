@@ -87,7 +87,7 @@ v1.9.0 adds support for Warhammer 3 and Troy, with more to come:
 - DotNet v4.5 Framework installed
 - Resolution at least 1400x850 or better
 - **_You MUST disable ALL mods in the CA Mod Manager BEFORE Launching in this Mod Manager_**
-- **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager for Warhammer 2_**
+- **_You MUST REVERT TO VANILLA in order to go back to use the CA Mod Manager after using the New Mod Manager_**
 
 ## Upcoming Features:
 
